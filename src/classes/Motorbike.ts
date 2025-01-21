@@ -7,11 +7,24 @@ class Motorbike {
   // TODO: Declare properties of the Motorbike class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, and wheels
   // TODO: The types should be as follows: vin (string), color (string), make (string), model (string), year (number), weight (number), topSpeed (number), wheels (Wheel[])
+  make: string;
+  model: string;
+  weight: number;
 
   // TODO: Create a constructor that accepts the properties of the Motorbike class
+  constructor (
+    make: string,
+    model: string,
+    weight: number
+  ) {
     // TODO: The constructor should call the constructor of the parent class, Vehicle
     // TODO: The constructor should initialize the properties of the Motorbike class
+    this.make = make;
+    this.model = model;
+    this.weight = weight;
     // TODO: The constructor should check if the wheels array has 2 elements and create 2 new default Wheel objects if it does not
+  }
+    
 
   // TODO: Implement the wheelie method
     // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
