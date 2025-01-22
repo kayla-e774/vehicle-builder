@@ -27,6 +27,10 @@ $ npm i
 ## Usage:
 - Watch this demo:  
 
+
+https://github.com/user-attachments/assets/8ed56c58-f581-4d2e-ad01-5ded8803c318
+
+
 [Demo video - google drive](https://drive.google.com/file/d/1aqW21ntLOz3ER1M1Lx-zOiFXdQ1unV-K/view?usp=sharing)
 
 - From this repo's root directory, start the application by running the following command:
